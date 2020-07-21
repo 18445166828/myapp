@@ -1,0 +1,42 @@
+.header {
+    width: 900px;
+    height: 165px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    margin:20px 30px;
+    border-radius: 50%;
+}
+
+.span {
+    font-size: 12px;
+    color: blue;
+    margin: -105px;
+}
+
+.headerRight{
+    height: 100%; 
+    margin-top: -140px;
+    margin-left: 200px;
+}
+
+.title {
+    display: block;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.span1 {
+    color: darkgray;
+}
+
+.span2 {
+    display: block;
+    margin-top: 10px;
+    color: orange;
+}

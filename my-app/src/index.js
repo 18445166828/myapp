@@ -1,6 +1,7 @@
-import React,{Component} from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
-import Page from "./page"
+import Header from "./component/header/header";
+import Container from "./component/container/container";
 
 // class App extends Component{
 //     render(){
@@ -11,7 +12,10 @@ import Page from "./page"
 // }
 const App = () =>{
     return (
-        <Page />
+        <div style={{backgroundColor:'#F5F6F7',margin:0,padding:0}}>
+        <Header />
+        <Container />
+        </div>
     ) 
     
 }
